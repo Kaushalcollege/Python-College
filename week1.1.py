@@ -1,0 +1,10 @@
+print(" To Find the distance between to (x1,y1),(*2,y2) coordinates")
+x1=int(input("enter x1 value:"))
+y1=int(input("enter y1 value:"))
+x2=int(input("enter x2 value:"))
+y2=int(input("enter y2 value:"))
+pnts1=(x1,y1)
+pnts2=(x2,y2)
+print("In you are given two coordinates are:" ,pnts1,'&',pnts2)
+Distance=(((pnts1[0]-pnts2[0])**2)+((pnts1[1]-pnts2[1])**2))**0.5
+print("The Distance Between two coordiantes are", Distance)
